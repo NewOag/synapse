@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "common",
+
+    # 01 - Foundations
+    "01_foundations/linear_algebra",
+    "01_foundations/calculus",
+    "01_foundations/probability",
+
+    # 02 - Classical ML
+    "02_classical_ml/linear_regression",
+    "02_classical_ml/logistic_regression",
+    "02_classical_ml/svm",
+    "02_classical_ml/decision_tree",
+    "02_classical_ml/ensemble",
+
+    # 03 - Neural Networks
+    "03_neural_networks/perceptron",
+    "03_neural_networks/backpropagation",
+    "03_neural_networks/mlp",
+
+    # 04 - Deep Learning
+    "04_deep_learning/cnn",
+    "04_deep_learning/rnn_lstm",
+    "04_deep_learning/attention",
+    "04_deep_learning/transformer",
+
+    # 05 - Optimization
+    "05_optimization/sgd",
+    "05_optimization/adam",
+    "05_optimization/lr_schedulers",
+
+    # 06 - Projects
+    "06_projects",
+]
