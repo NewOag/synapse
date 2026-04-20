@@ -2,3 +2,8 @@
 name = "synapse-common"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+log = { workspace = true }
+fern = { workspace = true }
+chrono = { workspace = true }

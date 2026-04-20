@@ -2,3 +2,15 @@
 name = "foundations-calculus"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "foundations-calculus"
+path = "src/main.rs"
+
+[lib]
+name = "foundations_calculus"
+path = "src/lib.rs"
+
+[dependencies]
+log = { workspace = true }
+synapse-common = { path = "../../common" }

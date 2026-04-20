@@ -34,3 +34,9 @@ members = [
     # 06 - Projects
     "06_projects",
 ]
+
+[workspace.dependencies]
+log = "0.4"
+env_logger = "0.11"
+fern = { version = "0.7", features = ["colored"] }
+chrono = "0.4"
